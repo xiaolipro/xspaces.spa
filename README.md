@@ -1,24 +1,8 @@
-# Xiaoli.XSpaces.WebSPA
+## Xiaoli.XSpaces.WebSPA
+🚀这是我的个人网站
 
-## Project setup
-```
-npm install
-```
+✔ Moq服务器
+✔ 动态路由
+✔ 适配移动端布局
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
