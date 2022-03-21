@@ -1,4 +1,4 @@
-# anti-megicbox-web
+# Xiaoli.XSpaces.WebSPA
 
 ## Project setup
 ```

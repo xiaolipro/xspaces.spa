@@ -5,10 +5,10 @@
  */
 module.exports = {
   /**
-   * @type {string} 'MegicBox'
+   * @type {string} 'XSpaces'
    * @description Html page title
    */
-  title: "MegicBox for Antinew",
+  title: "XSpaces",
   /**
    * @type {string | array} 'production' | ['production', 'development']
    * @description Need show err logs component.

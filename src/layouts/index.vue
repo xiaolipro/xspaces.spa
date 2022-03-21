@@ -1,5 +1,5 @@
 <template>
-  <div class="megic-box-wrapper">
+  <div class="app-wrapper">
     <!-- 水平布局 -->
     <div
       v-if="layout === 'horizontal'"
@@ -81,7 +81,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.megic-box-wrapper {
+.app-wrapper {
   position: relative;
   width: 100%;
   height: 100%;

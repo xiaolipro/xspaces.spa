@@ -4,7 +4,7 @@ import Cookies from "js-cookie";
 
 const { fixedHeader, controlPanel, tabsBar, sidebarLogo, layout } =
   themeSettings;
-const theme = JSON.parse(localStorage.getItem("megicbox-theme")) || "";
+const theme = JSON.parse(localStorage.getItem("app-theme")) || "";
 
 const state = {
   sidebar: {

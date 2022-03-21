@@ -3,7 +3,7 @@ const resolve = (dir) => path.join(__dirname, dir);
 
 const settings = require("./src/config");
 
-const name = settings.title || "Vue Megicbox"; // page title
+const name = settings.title || ""; // page title
 
 const mockServer = () => {
   if (process.env.NODE_ENV === "development")
