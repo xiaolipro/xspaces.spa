@@ -13,7 +13,7 @@ const mockDir = path.join(process.cwd(), "mock");
 const registerRoutes = (app) => {
   let mockLastIndex;
   let mocks = getMocks();
-  console.log(mocks);
+  console.log("mocks", mocks);
   const mocksForServer = mocks.map((item) => {
     return responseFake(item.url, item.method, item.response);
   });
