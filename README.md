@@ -8,7 +8,7 @@
 # 克隆项目
 git clone https://gitee.com/antinew/XSpaces.git
 # 安装依赖
-npm i
+npm install
 # 本地开发项目启动
 npm run dev
 ```
