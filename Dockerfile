@@ -8,10 +8,10 @@ COPY . .
 RUN npm install cnpm -g --no-progress --registry=https://registry.npm.taobao.org
 RUN cnpm install --no-progress
 # 构建
-RUN npm run build
-# production stage
+RUN npm run build-test
+# test stage
 # 使用nginx镜像
-FROM nginx:stable-alpine as production-stage
+FROM nginx:stable-alpine as test-stage
 # 使用--from把上面产生的静态文件复制到nginx的运行目录
 COPY --from=build-stage /app/dist /usr/share/nginx/html
 # nginx容器内部暴露的端口

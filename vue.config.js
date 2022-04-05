@@ -8,7 +8,7 @@ const name = settings.title || ""; // page title
 const mockServer = () => {
   if (process.env.NODE_ENV === "development")
     return require("./mock/mock-server");
-  else require("./mock/mock-server");
+  else "";
 };
 /**
  * @description vue-cli配置文件 和webpack差不多. 修改配置也需要重新启动serve才能生效
