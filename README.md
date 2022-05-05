@@ -1,5 +1,5 @@
 ## Xiaoli.XSpaces.WebSPA
-🚀这是我的个人网站[xxa].
+🚀这是我的个人网站[xxa]
 - Moq服务器
 - 动态路由
 - 适配移动端布局
