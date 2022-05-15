@@ -80,7 +80,7 @@ export default {
       },
     },
   },
-  inject: ["$message"],
+  inject: ["$message"], //vue3.0
   data() {
     return {
       title,
